@@ -1,3 +1,8 @@
+.video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Tùy chọn, nếu bạn muốn bo góc */
+}
 .grid {
     display: flex;
 }
