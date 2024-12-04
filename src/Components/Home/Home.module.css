@@ -1,8 +1,11 @@
 .video {
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* Tùy chọn, nếu bạn muốn bo góc */
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; /* Bo góc tròn */
+  object-fit: cover; /* Đảm bảo video hiển thị đẹp trong khung */
 }
+
+
 .grid {
     display: flex;
 }
